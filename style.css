@@ -9,7 +9,7 @@
     margin: 0 auto;
     width: 100%;
     /* 📍 Максимальная ширина для контейнера */
-    max-width: 1440px;
+    max-width: 1140px;
     align-items: center;
 }
 
@@ -47,7 +47,7 @@ header span {
 }
 
 .text-wrapper {
-    max-width: 100%;
+    max-width: 425px;
     margin: 420px 0 420px 150px;
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
@@ -77,6 +77,7 @@ header span {
     padding-left: 150px;
     display: flex;
     flex-direction: column;
+    gap: 60px;
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -137,7 +138,7 @@ select:hover,
 
 .skills-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
